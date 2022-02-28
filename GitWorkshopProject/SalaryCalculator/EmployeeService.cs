@@ -22,12 +22,13 @@ namespace SalaryCalculator
                     break;
                 case EmployeeType.SeniorEngineer:
                 case EmployeeType.Manager:
-                    factor = 1.5m;
+                    factor = 2.0m;
                     break;
                 case EmployeeType.SeniorManager:
                 case EmployeeType.Expert:
                     factor = 3;
                     break;
+
             }
             // TODO: if employee is Expert, set factor = 3
 
